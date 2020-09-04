@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 470px;
+    /*     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.mole {
+    background-image: url('mole.png');
+    background-size: cover;
+    cursor: pointer;
+}
